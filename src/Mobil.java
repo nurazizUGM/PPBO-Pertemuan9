@@ -15,6 +15,10 @@ public class Mobil extends Kendaraan {
                 this.getTahunProduksi(), this.getHarga());
     }
 
+    double getBiayaLayanan() {
+        return this.getHarga() * 0.03;
+    }
+
     TipeMobil getTipe() {
         return this.tipe;
     }

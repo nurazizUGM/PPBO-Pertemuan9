@@ -12,6 +12,10 @@ public class Truk extends Kendaraan {
                 this.getTahunProduksi(), this.getHarga());
     }
 
+    double getBiayaLayanan() {
+        return this.getHarga() * 0.025;
+    }
+
     double getKapasitasMax() {
         return this.kapasitas;
     }
